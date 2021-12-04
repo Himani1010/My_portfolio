@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+:root {
+    --primary-color: #3B82F6
+    ;
+    --dark-green: #064E3B;
+    --off-white:#cfe1f8;
+
+}
+
+body {
+    background-color: ghostwhite;
+    font-family: 'Slabo 27px', serif;    
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+hr {
+    margin: 3rem
+}
+
+.container {
+    padding: 0.5rem 1rem;
+}
+
+.container-center {
+    max-width: 570px;
+    margin: auto;
+}
+
+.link:hover {
+    color: rgba(14, 11, 14, 0.753);
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    /* font-style: italic; */
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 1.5rem;
+    color: antiquewhite;
+
+
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    margin: 6px;
+    border-radius: 1.5rem;
+    border: 2px solid var(--primary-color);
+}
+
+.list-non-bulit {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding-right: 1rem 0.5rem;
+}
+
+.box {
+    background-color: var(--off-white);
+    padding: 2rem;
+    margin: 3rem auto;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .link {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .nav-brand:hover {
+    color: var(--dark-green);
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 40px;
+    /* font-family: 'Montserrat', sans-serif; */
+
+}
+
+.navigation .link-active:hover {
+    color: var(--dark-green);
+}
+
+.navigation .link-active {
+    font-weight: bold;
+
+}
+
+header {
+    display: block;
+}
+
+p {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+    
+}
+
+h2:hover {
+    color: var(--primary-color);
+}
+
+h2 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+}
+
+.hero {
+    padding: 2rem;
+    padding-top: 3rem;
+}
+
+.hero .hero-image {
+    max-width: 550px;
+    margin: auto;
+    display: block;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding: 1rem;
+    color: var(--dark-green);
+    font-size: 45px;
+}
+
+.hero .hero-heading .heading-invot {
+    color: var(--primary-color);
+    font-size: 45px;
+
+}
+
+.section {
+    padding: 2rem;
+}
+
+h1:hover {
+    color: var(--primary-color);
+}
+
+.section h1 {
+    text-align: center;
+
+}
+
+.ow {
+    background-color: var(--off-white);
+    border-radius: 1rem;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+
+}
+
+.footer .footer-header:hover {
+    color: rgb(161, 218, 218);
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: 34px;
+    padding-left: 2rem;
+
+}
+
+.footer .link:hover {
+    color: var(--dark-green);
+}
+
+.footer .link {
+    color: white;
+    font-size: 20px;
+
+}
+	
+	
+	
