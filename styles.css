@@ -37,7 +37,7 @@ hr {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     /* font-style: italic; */
 }
 
@@ -51,7 +51,7 @@ hr {
 
 .link-secondary {
     color: var(--primary-color);
-    margin: 6px;
+    margin: 3px;
     border-radius: 1.5rem;
     border: 2px solid var(--primary-color);
 }
