@@ -76,12 +76,12 @@ hr {
     padding: 2rem;
     margin: 3rem auto;
     text-align: center;
-    /* border-radius: 4rem; */
-    height: 200px;
+    border-radius: 4rem;
+     height: 250px;
     /* margin-top: -50px; */
-    margin-bottom: 40px;
+    /* margin-bottom: 3000px;
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 300px; */ 
 
     
 }
