@@ -48,11 +48,13 @@ hr {
     /* font-style: italic; */
 }
 
+
+
 .link-primary {
     max-width: 140x;
     padding: 0.6rem 1.2rem;
     background-color: var(--primary-color);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     color: antiquewhite;
     margin: 1.5rem auto;
     border: 0.1rem solid var(--primary-color);
@@ -65,7 +67,7 @@ hr {
     padding: 0.6rem 1.2rem;
     color: var(--primary-color);
     margin: 1.5rem auto;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     border: 0.1px solid var(--primary-color);
 }
 
@@ -156,7 +158,9 @@ p {
 h2:hover {
     color: var(--primary-color);
 }
-
+.link:hover{
+    color: black;
+}
 h2 {
     margin-left: 2rem;
     margin-right: 2rem;
