@@ -136,7 +136,7 @@ p {
     margin-left: 3rem;
     margin-right: 3rem;
     text-align: center  ;
-    font-size: 16px;
+    font-size: 20px;
 
 }
 
@@ -249,7 +249,7 @@ h1:hover {
     margin-bottom: 40px;
     /* padding-top: 10px; */
     padding-bottom: 30px;
-    background-color: honeydew;
+    background-color: rgb(228, 236, 228);
 
 
     
