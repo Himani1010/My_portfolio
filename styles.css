@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
 :root {
     --primary-color: #3B82F6;
     --dark-green: #064E3B;
-    --off-white:#cfe1f8;
+    --off-white: #cfe1f8;
 
 }
 
 body {
     background-color: ghostwhite;
-    font-family: 'Slabo 27px', serif;    
+    font-family: 'Slabo 27px', serif;
     margin-left: 60px;
     margin-right: 60px;
     display: block;
@@ -22,11 +23,16 @@ hr {
 
 .container {
     padding: 0.5rem 1rem;
+    
 }
 
 .container-center {
     max-width: 570px;
     margin: auto;
+    border-radius: -4rem; 
+    /* border: #3B82F6; */
+
+    
 }
 
 .link:hover {
@@ -63,13 +69,21 @@ hr {
 .list-item-inline {
     display: inline;
     padding-right: 1rem 0.5rem;
+    
 }
+
 .box {
     background-color: var(--off-white);
     padding: 2rem;
     margin: 3rem auto;
     text-align: center;
-    border-radius: 1rem;
+    border-radius: 4rem;
+    height: 200px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+    
 }
 
 .navigation {
@@ -77,6 +91,9 @@ hr {
     color: white;
     padding: 0.5rem;
     border-bottom-left-radius: 1rem;
+    border-radius: 2rem;
+
+
 }
 
 .navigation .link {
@@ -97,7 +114,7 @@ hr {
 .navigation .nav-brand {
     font-weight: bold;
     font-size: 40px;
-    /* font-family: 'Montserrat', sans-serif; */
+    text-align:left ;
 
 }
 
@@ -117,9 +134,9 @@ header {
 p {
     margin-left: 3rem;
     margin-right: 3rem;
-    text-align: center;
+    text-align: center  ;
     font-size: 16px;
-    
+
 }
 
 h2:hover {
@@ -176,10 +193,12 @@ h1:hover {
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    border-radius: 2rem;
+
 
 }
 
@@ -192,7 +211,7 @@ h1:hover {
     font-size: 28px;
     padding-left: 2rem;
     margin-top: 0.6px;
-    margin-bottom: 16px;
+    margin-bottom: 6px;
     padding-top: 3px;
     padding-bottom: 3px;
 
@@ -202,19 +221,12 @@ h1:hover {
     color: var(--dark-green);
 }
 
-.footer .link {
+.footer .link  {
     color: white;
     font-size: 20px;
 
 }
-a,li,img{
-    display: inline;
-    /* padding:7px;
-    margin: 6px; */
-    border-image: ;
+
+li {
+    border-radius: 1rem;
 }
-
-
-	
-	
-	
