@@ -118,6 +118,7 @@ p {
     margin-left: 3rem;
     margin-right: 3rem;
     text-align: center;
+    font-size: 16px;
     
 }
 
@@ -188,8 +189,12 @@ h1:hover {
 
 .footer .footer-header {
     font-weight: bold;
-    font-size: 34px;
+    font-size: 28px;
     padding-left: 2rem;
+    margin-top: 0.6px;
+    margin-bottom: 16px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 
 }
 
@@ -202,6 +207,14 @@ h1:hover {
     font-size: 20px;
 
 }
+a,li,img{
+    display: inline;
+    /* padding:7px;
+    margin: 6px; */
+    border-image: ;
+}
+
+
 	
 	
 	
