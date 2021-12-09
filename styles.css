@@ -29,8 +29,7 @@ hr {
 .container-center {
     max-width: 570px;
     margin: auto;
-    border-radius: -4rem; 
-    /* border: #3B82F6; */
+    /* border-radius: -4rem;  */
 
     
 }
@@ -79,7 +78,8 @@ hr {
     text-align: center;
     /* border-radius: 4rem; */
     height: 200px;
-    margin-bottom: 30px;
+    /* margin-top: -50px; */
+    margin-bottom: 40px;
     padding-top: 10px;
     padding-bottom: 30px;
 
@@ -99,7 +99,7 @@ hr {
 .navigation .link {
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 25px;
 
 }
 
@@ -113,8 +113,9 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 40px;
     text-align:left ;
+    /* font-family: 'Montserrat', sans-serif; */
 
 }
 
